@@ -1,42 +1,82 @@
-# HF Wallet Showcase
+# Holo Fuel Wallet
 
-HF Wallet is a Holochain-native wallet product candidate focused on a future HoloFuel-ready user experience.
+Holo Fuel Wallet is a Holochain-native wallet product candidate focused on a future HoloFuel-ready user experience.
 
-## What this public showcase demonstrates
+This public repository is a **showcase repo** designed to help the Holochain and HoloFuel ecosystem quickly understand what has already been built.
+
+## What is already demonstrated
 
 - working wallet dashboard
 - primary and peer wallet profiles
 - verified multi-conductor transfer flow
-- receive flow with QR and address
-- packaged desktop runtime direction
+- receive flow with QR and wallet address
+- desktop runtime direction
 - multilingual interface support
 
 ## Important note
 
-This public repository is a showcase repository.
-It is intentionally limited to demo assets and product-facing materials.
-It does not contain the private working source repository.
+This repository is intentionally limited to demo assets and product-facing materials.
+It does **not** include the private working source repository.
 
-## Demo Assets
+## Why this matters
 
-### Screenshots
+The hardest part of a future HoloFuel wallet is not only the token integration.
+It is also:
 
-- `screenshots/01-primary-dashboard.png`
-- `screenshots/02-peer-dashboard.png`
-- `screenshots/03-release-folder.png`
-- `screenshots/04-installers.png`
-- `screenshots/05-language-switch.png`
-- `screenshots/06-receive-qr-address.png`
+- wallet UX
+- runtime model
+- recovery model
+- desktop distribution
+- multi-agent flow visibility
 
-### Demo Video
+This showcase demonstrates that those foundations are already moving beyond concept stage.
 
-- `video/hf-wallet-desktop-demo-20260406.mp4`
+## Demo Screenshots
+
+### Primary Dashboard
+
+![Primary dashboard](screenshots/01-primary-dashboard.png)
+
+### Peer Profile
+
+![Peer dashboard](screenshots/02-peer-dashboard.png)
+
+### Receive Flow
+
+![Receive QR and address](screenshots/06-receive-qr-address.png)
+
+### Desktop Runtime Release
+
+![Release folder](screenshots/03-release-folder.png)
+
+### Installer Outputs
+
+![Installers](screenshots/04-installers.png)
+
+### Language Switching
+
+![Language switch](screenshots/05-language-switch.png)
+
+## Demo Video
+
+- [Desktop demo video](video/hf-wallet-desktop-demo-20260406.mp4)
 
 ## Product Positioning
 
-HF Wallet is a Holochain-native wallet platform candidate with verified multi-conductor transfer proof.
-It is not presented as an official production HoloFuel wallet.
+Holo Fuel Wallet is a Holochain-native wallet platform candidate with verified multi-conductor transfer proof.
 
-## Contact
+It is **not** presented as:
 
-If you are interested in feedback, ecosystem collaboration, or product discussion, please reach out through GitHub.
+- an official production HoloFuel wallet
+- a finished custody product
+- a final security-audited release
+
+It **is** presented as:
+
+- a serious product candidate
+- a Holochain-native wallet foundation
+- a future HoloFuel-ready direction
+
+## Feedback
+
+If this direction looks useful for the ecosystem, feedback is welcome through GitHub issues or discussions.
